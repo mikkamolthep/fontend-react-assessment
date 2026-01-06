@@ -51,7 +51,7 @@ export function Navbar({ user, authLoading, authError, login, logout }) {
               </button>
             </>
           ) : (
-            <form onSubmit={handleSubmit} className="flex items-center gap-2">
+            <form onSubmit={handleSubmit} className="flex items-center gap-x-2">
               <input
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
